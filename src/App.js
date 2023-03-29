@@ -4,13 +4,16 @@ import 'antd/dist/antd.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header/Header';
+import Requirement from './components/Requirements/Requirement';
 
 function App() {
+  const title1 = "Hello";
+  const displayNotification = () => {
+    console.log("Click");
+  }
   return (
     <div className="App">
-      <Header />
-      <Button type="primary">PRESS ME</Button>
-      <DatePicker placeholder="select date" />
+      <Requirement />
     </div>
   );
 }

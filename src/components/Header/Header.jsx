@@ -3,8 +3,8 @@ import "./Header.scss";
 
 export default function Header() {
   return (
-    <div class="alert alert-primary" role="alert">
-      <p className="header">Welcome to our application</p>
+    <div className="alert alert-primary" role="alert">
+      <p className="header">Welcome to our 000</p>
     </div>
   );
 }
