@@ -2,7 +2,6 @@ import React from 'react';
 import CollapseCard from './features/CollapseCard';
 
 import './FAQ.scss';
-
 export default function FAQ() {
   
   const image_url = 'https://devplus.edu.vn/assets/images/devplus/video_03.png';
